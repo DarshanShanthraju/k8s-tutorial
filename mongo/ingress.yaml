@@ -10,6 +10,7 @@ spec:
       http:
         paths:
           - path: /
+            pathType: Exact
             backend:
               service:
                 name: mongo-express-service
